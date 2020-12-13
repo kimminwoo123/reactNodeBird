@@ -1,6 +1,6 @@
 import { Form, Input } from 'antd'
 import Link from 'next/link'
-import { useCallback, useState, useMemo } from 'react'
+import React, { useCallback, useState, useMemo } from 'react'
 import Styled from 'styled-components'
 
 const ButtonWrapper = Styled.div`
@@ -51,7 +51,6 @@ const LoginForm = ({ setIsLoggedIn }) => {
         </FormWrapper>
     </>
     )
-
 }
 
 export default LoginForm
